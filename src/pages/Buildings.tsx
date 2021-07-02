@@ -267,59 +267,7 @@ const Buildings = () => {
     }, []);
 
     
-    /*React.useEffect(() => {
-        setDragonLair(String(props.building[1].buildingLvl));
-        setHospital(String(props.building[2].buildingLvl));
-        setTradingPost(String(props.building[3].buildingLvl));
-        setFarm(String(props.building[4].buildingLvl));
-        setSawmill(String(props.building[5].buildingLvl));
-        setIronMine(String(props.building[6].buildingLvl));
-        setSilverMine(String(props.building[7].buildingLvl));
-        setWatchtower(String(props.building[8].buildingLvl));
-        setTrainingGrounds(String(props.building[9].buildingLvl));
-        setWishingWell(String(props.building[10].buildingLvl));
-        setWall(String(props.building[11].buildingLvl));
-        setSiegeWorkshop(String(props.building[12].buildingLvl));
-        setStables(String(props.building[13].buildingLvl));
-        setRanged(String(props.building[15].buildingLvl));
-        setBarracks(String(props.building[14].buildingLvl));
-        setStronghold(String(props.building[16].buildingLvl));
-        setHallOfWar(String(props.building[17].buildingLvl));
-        setEmbassy(String(props.building[18].buildingLvl));
-        setStorehouse(String(props.building[22].buildingLvl));
-        setTrapFactory(String(props.building[19].buildingLvl));
-        setUniversity(String(props.building[20].buildingLvl));
-        setForge(String(props.building[21].buildingLvl));
-    }, [props.building])*/
-
-
-    /*if(props.building[10].buildingLvl){
-        setDragonLair(String(props.building[1].buildingLvl));
-        setHospital(String(props.building[2].buildingLvl));
-        setTradingPost(String(props.building[3].buildingLvl));
-        setFarm(String(props.building[4].buildingLvl));
-        setSawmill(String(props.building[5].buildingLvl));
-        setIronMine(String(props.building[6].buildingLvl));
-        setSilverMine(String(props.building[7].buildingLvl));
-        setWatchtower(String(props.building[8].buildingLvl));
-        setTrainingGrounds(String(props.building[9].buildingLvl));
-        setWishingWell(String(props.building[10].buildingLvl));
-        setWall(String(props.building[11].buildingLvl));
-        setSiegeWorkshop(String(props.building[12].buildingLvl));
-        setStables(String(props.building[13].buildingLvl));
-        setRanged(String(props.building[15].buildingLvl));
-        setBarracks(String(props.building[14].buildingLvl));
-        setStronghold(String(props.building[16].buildingLvl));
-        setHallOfWar(String(props.building[17].buildingLvl));
-        setEmbassy(String(props.building[18].buildingLvl));
-        setStorehouse(String(props.building[22].buildingLvl));
-        setTrapFactory(String(props.building[19].buildingLvl));
-        setUniversity(String(props.building[20].buildingLvl));
-        setForge(String(props.building[21].buildingLvl));
-    }*/
-
-
-    
+   
 
     const submit = async (e: SyntheticEvent)=>{
         e.preventDefault();
